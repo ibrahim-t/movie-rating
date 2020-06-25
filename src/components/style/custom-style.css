@@ -1,0 +1,63 @@
+body{
+    background-color: ghostwhite;
+
+}
+#root{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.container-child{
+    display: flex;
+    align-items: center;
+  
+}
+.movie-poster{
+    margin: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+.movie-card{
+      background-color: beige;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid burlywood;
+}
+.movie-tralier{
+padding: 5px;
+    background-color: sandybrown;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+}
+.movie-vote{
+        display: flex;
+    margin: 10px;
+    text-align: center;
+    flex-flow: column;
+    padding: 10px;
+}
+.movie{
+        align-items: center;
+    display: flex;
+}
+.upVote{
+    background-color: lightgreen;
+    height: 5%;
+    cursor: pointer;
+    border-radius: 14px;
+    width: 85%;
+}
+.downVote{
+    background-color: red;
+    height: 5%;
+    cursor: pointer;
+    border-radius: 14px;
+    width: 85%;
+}
+.login-page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
