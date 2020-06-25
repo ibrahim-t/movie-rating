@@ -11,8 +11,8 @@ import {reducer} from "./components/movielist/reducer";
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
-ReactDOM.render(<Login><Provider store={store}>
-  <MovieList style={{alignContent:"center"}} /></Provider></Login>,
+ReactDOM.render(<Provider store={store}>
+  <MovieList style={{alignContent:"center"}} /></Provider>,
   document.getElementById('root')
 );
 serviceWorker.unregister();
